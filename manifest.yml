@@ -1,0 +1,7 @@
+applications:
+- name: tictactoe
+  command: npm start
+  path: .
+  memory: 128M
+  instances: 1
+  random-route: true
